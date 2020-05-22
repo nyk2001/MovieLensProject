@@ -1,15 +1,17 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.16)  20 MAY 2020 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.22)  23 MAY 2020 09:43
 entering extended mode
-**./Project_MovieLens.tex
-(Project_MovieLens.tex
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Project_MovieLens.tex
+(./Project_MovieLens.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-04-06>
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article
-.cls"
+L3 programming layer <2020-05-15>
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.
+cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.
-clo"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.c
+lo
 File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
@@ -24,8 +26,8 @@ File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\lmodern.s
-ty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/lmodern.st
+y
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -60,12 +62,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\ams
-symb.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amss
+ymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\ams
-fonts.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsf
+onts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup4
@@ -74,29 +76,29 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsm
-ath.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsma
+th.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip49
 For additional information on amsmath, use the `?' option.
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amst
-ext.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amste
+xt.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsg
-en.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsge
+n.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen135
 ))
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsb
-sy.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbs
+y.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen136
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amso
-pn.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsop
+n.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count175
@@ -137,20 +139,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifxe
-tex.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifxet
+ex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifte
-x.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex
+.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iflu
-atex.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iflua
+tex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fixltx2
-e.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fixltx2e
+.sty
 Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
 Applying: [2015/01/01] Old fixltx2e package on input line 46.
 
@@ -160,359 +162,311 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 
 Already applied: [0000/00/00] Old fixltx2e package on input line 53.
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc
-.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.
+sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
 2.
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputen
-c.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/inputenc
+.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks21
 \inpenc@posthook=\toks22
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/upquote\upqu
-ote.sty"
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/geom
+etry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcom
-p.sty"
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-))
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mi
-crotype.sty"
-Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\key
-val.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyv
+al.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
-\MT@toks=\toks24
-\MT@count=\count187
-LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen144
-LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count188
-
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mi
-crotype-pdftex.def"
-File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 914.
-LaTeX Info: Redefining \lslig on input line 914.
-\MT@outer@space=\skip52
-)
-Package microtype Info: Loading configuration file microtype.cfg.
-
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mi
-crotype.cfg"
-File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
-))
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geo
-metry.sty"
-Package: geometry 2020/01/02 v5.9 Page Geometry
-
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvt
-ex.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvte
+x.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count189
-\Gm@cntv=\count190
-\c@Gm@tempcnt=\count191
-\Gm@bindingoffset=\dimen145
-\Gm@wd@mp=\dimen146
-\Gm@odd@mp=\dimen147
-\Gm@even@mp=\dimen148
-\Gm@layoutwidth=\dimen149
-\Gm@layoutheight=\dimen150
-\Gm@layouthoffset=\dimen151
-\Gm@layoutvoffset=\dimen152
-\Gm@dimlist=\toks25
+\Gm@cnth=\count187
+\Gm@cntv=\count188
+\c@Gm@tempcnt=\count189
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
+\Gm@dimlist=\toks24
+)
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hype
+rref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geo
-metry.cfg"))
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyp
-erref.sty"
-Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
-
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\lt
-xcmds.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltx
+cmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\p
-dftexcmds.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdftexcmds/pd
+ftexcmds.sty
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\
-infwarerr.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/i
+nfwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\
-kvsetkeys.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvsetkeys/k
+vsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefineke
-ys\kvdefinekeys.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekey
+s/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfescape\
-pdfescape.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/p
+dfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hyco
-lor.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hycol
+or.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro\
-letltxmacro.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/letltxmacro/l
+etltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\auxh
-ook.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/auxhook/auxho
+ok.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kv
-options.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvo
+ptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen153
-\Hy@linkcounter=\count192
-\Hy@pagecounter=\count193
+\@linkdim=\dimen152
+\Hy@linkcounter=\count190
+\Hy@pagecounter=\count191
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1
-enc.def"
-File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1e
+nc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intcalc\in
-tcalc.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/int
+calc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\e
-texcmds.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/etexcmds/et
+excmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count194
-Package hyperref Info: Hyper figures OFF on input line 4547.
-Package hyperref Info: Link nesting OFF on input line 4552.
-Package hyperref Info: Hyper index ON on input line 4555.
-Package hyperref Info: Plain pages OFF on input line 4562.
-Package hyperref Info: Backreferencing OFF on input line 4567.
+\Hy@SavedSpaceFactor=\count192
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count195
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count193
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen154
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen153
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bit
-set.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bits
+et.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcalc
-\bigintcalc.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/
+bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count196
-\Field@Width=\dimen155
-\Fld@charsize=\dimen156
-Package hyperref Info: Hyper figures OFF on input line 6430.
-Package hyperref Info: Link nesting OFF on input line 6435.
-Package hyperref Info: Hyper index ON on input line 6438.
-Package hyperref Info: backreferencing OFF on input line 6445.
-Package hyperref Info: Link coloring OFF on input line 6450.
-Package hyperref Info: Link coloring with OCG OFF on input line 6455.
-Package hyperref Info: PDF/A mode OFF on input line 6460.
-LaTeX Info: Redefining \ref on input line 6500.
-LaTeX Info: Redefining \pageref on input line 6504.
+\Fld@menulength=\count194
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\a
-tbegshi.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/atbegshi/at
+begshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count197
-\c@Item=\count198
-\c@Hfootnote=\count199
+\Hy@abspage=\count195
+\c@Item=\count196
+\c@Hfootnote=\count197
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpd
-ftex.def"
-File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdf
+tex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\at
-veryend.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/atveryend/atv
+eryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Fld@listcount=\count266
-\c@bookmark@seq@number=\count267
+\Fld@listcount=\count198
+\c@bookmark@seq@number=\count199
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfileche
-ck\rerunfilecheck.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilechec
+k/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecoun
-ter\uniquecounter.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecount
+er/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip53
+\Hy@SectionHShift=\skip52
 )
 Package hyperref Info: Option `unicode' set `true' on input line 30.
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pue
-nc.def"
-File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puen
+c.def
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 30.
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\col
-or.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/colo
+r.sty
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg
-\color.cfg"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/
+color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def
-\pdftex.def"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/
+pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyvrb\fan
-cyvrb.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fanc
+yvrb.sty
 Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count268
+\FV@CodeLineNo=\count266
 \FV@InFile=\read2
 \FV@TabBox=\box47
-\c@FancyVerbLine=\count269
-\FV@StepNumber=\count270
+\c@FancyVerbLine=\count267
+\FV@StepNumber=\count268
 \FV@OutFile=\write3
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/framed\frame
-d.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/framed/framed
+.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip54
-\fb@frw=\dimen157
-\fb@frh=\dimen158
-\FrameRule=\dimen159
-\FrameSep=\dimen160
+\OuterFrameSep=\skip53
+\fb@frw=\dimen156
+\fb@frh=\dimen157
+\FrameRule=\dimen158
+\FrameSep=\dimen159
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longta
-ble.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtab
+le.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip55
-\LTright=\skip56
-\LTpre=\skip57
-\LTpost=\skip58
-\LTchunksize=\count271
-\LTcapwidth=\dimen161
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count269
+\LTcapwidth=\dimen160
 \LT@head=\box48
 \LT@firsthead=\box49
 \LT@foot=\box50
 \LT@lastfoot=\box51
-\LT@cols=\count272
-\LT@rows=\count273
-\c@LT@tables=\count274
-\c@LT@chunks=\count275
-\LT@p@ftn=\toks26
+\LT@cols=\count270
+\LT@rows=\count271
+\c@LT@tables=\count272
+\c@LT@chunks=\count273
+\LT@p@ftn=\toks25
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\boo
-ktabs.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/book
+tabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen162
-\lightrulewidth=\dimen163
-\cmidrulewidth=\dimen164
-\belowrulesep=\dimen165
-\belowbottomsep=\dimen166
-\aboverulesep=\dimen167
-\abovetopsep=\dimen168
-\cmidrulesep=\dimen169
-\cmidrulekern=\dimen170
-\defaultaddspace=\dimen171
-\@cmidla=\count276
-\@cmidlb=\count277
-\@aboverulesep=\dimen172
-\@belowrulesep=\dimen173
-\@thisruleclass=\count278
-\@lastruleclass=\count279
-\@thisrulewidth=\dimen174
+\heavyrulewidth=\dimen161
+\lightrulewidth=\dimen162
+\cmidrulewidth=\dimen163
+\belowrulesep=\dimen164
+\belowbottomsep=\dimen165
+\aboverulesep=\dimen166
+\abovetopsep=\dimen167
+\cmidrulesep=\dimen168
+\cmidrulekern=\dimen169
+\defaultaddspace=\dimen170
+\@cmidla=\count274
+\@cmidlb=\count275
+\@aboverulesep=\dimen171
+\@belowrulesep=\dimen172
+\@thisruleclass=\count276
+\@lastruleclass=\count277
+\@thisrulewidth=\dimen173
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gra
-phicx.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/grap
+hicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gra
-phics.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/grap
+hics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\tri
-g.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig
+.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg
-\graphics.cfg"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/
+graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen175
-\Gin@req@width=\dimen176
+\Gin@req@height=\dimen174
+\Gin@req@width=\dimen175
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grffile\grff
-ile.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/grffile/grffi
+le.sty
 Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
 y)
 Package grffile Info: This package is an empty stub for compatibility on input 
 line 40.
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/parskip\pars
-kip.sty"
-Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
-
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\eto
-olbox.sty"
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count280
-))
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titling\titl
-ing.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titling/titli
+ng.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip59
-\thanksmargin=\skip60
-\droptitle=\skip61
+\thanksmarkwidth=\skip58
+\thanksmargin=\skip59
+\droptitle=\skip60
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3
-backend-pdfmode.def"
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count281
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3b
+ackend-pdfmode.def
+File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count278
 \l__pdf_internal_box=\box52
-) (Project_MovieLens.aux
-
-LaTeX Warning: Label `sec:dataanalysis' multiply defined.
-
 )
+No file Project_MovieLens.aux.
 \openout1 = `Project_MovieLens.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
@@ -533,23 +487,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
 LaTeX Font Info:    ... okay on input line 129.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
 LaTeX Font Info:    ... okay on input line 129.
-LaTeX Info: Redefining \microtypecontext on input line 129.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using protrusion set `basicmath'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 129.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
-
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt
--cmr.cfg"
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -587,340 +524,299 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 \AtBeginShipoutBox=\box53
 Package hyperref Info: Link coloring OFF on input line 129.
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nam
-eref.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/name
+ref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\ref
-count.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refc
+ount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlest
-ring\gettitlestring.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestr
+ing/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count282
+\c@section@level=\count279
 )
 LaTeX Info: Redefining \ref on input line 129.
 LaTeX Info: Redefining \pageref on input line 129.
 LaTeX Info: Redefining \nameref on input line 129.
-(Project_MovieLens.out) (Project_MovieLens.out)
 \@outlinefile=\write4
 \openout4 = `Project_MovieLens.out'.
 
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\
-supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count283
-\scratchdimen=\dimen177
-\scratchbox=\box54
-\nofMPsegments=\count284
-\nofMParguments=\count285
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count286
-\MPscratchDim=\dimen178
-\MPnumerator=\count287
-\makeMPintoPDFobject=\count288
-\everyMPtoPDFconversion=\toks28
-)
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg
-\epstopdf-base.sty"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/
+epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-) (Project_MovieLens.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-.
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd
-"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-.
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd
-"
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-2.
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.f
-d"
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-2.
-
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.f
-d"
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 2.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 2.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 2.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
-
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\ums
-a.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt
--msa.cfg"
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
-
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\ums
-b.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt
--msb.cfg"
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/e
+pstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
 \tf@toc=\write5
 \openout5 = `Project_MovieLens.toc'.
 
 
-LaTeX Warning: Citation `systems1' on page 1 undefined on input line 147.
+LaTeX Warning: Citation `rsystems' on page 1 undefined on input line 148.
 
-[1
 
-{C:/Users/Nabeel Khan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Warning: Citation `rsystems1' on page 1 undefined on input line 148.
+
+
+LaTeX Warning: Citation `nfc' on page 1 undefined on input line 154.
+
+
+LaTeX Warning: Citation `dataset' on page 1 undefined on input line 171.
+
+
+LaTeX Warning: Citation `rmse' on page 1 undefined on input line 178.
+
+
+LaTeX Warning: Reference `eq:rmse' on page 1 undefined on input line 178.
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+82.
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+82.
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+182.
+
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+182.
+
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 182.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 182.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 182.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 182
+.
+
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa
+.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 182
+.
+
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb
+.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/
+pdftex.map}]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-01.
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd
-"
+04.
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-06.
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd
-"
+09.
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 211.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 215.
 
-Overfull \hbox (28.99353pt too wide) in paragraph at lines 221--221
+Overfull \hbox (34.24352pt too wide) in paragraph at lines 225--225
 []\T1/lmtt/m/n/10 ## -- Attaching packages ------------------------------------
---------------- tidyverse 1.3.0 --[] 
+---------------- tidyverse 1.2.1 --[] 
  []
 
 
-Overfull \hbox (28.99353pt too wide) in paragraph at lines 234--234
+Overfull \hbox (34.24352pt too wide) in paragraph at lines 238--238
 []\T1/lmtt/m/n/10 ## -- Conflicts ---------------------------------------------
---------- tidyverse_conflicts() --[] 
+---------- tidyverse_conflicts() --[] 
  []
 
+[2] [3] [4]
 LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
-253.
+453.
 
-("C:\Users\Nabeel Khan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmtt.f
-d"
+(c:/Users/NabeelKhan/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [2] [3]
-Overfull \hbox (11.56418pt too wide) in alignment at lines 417--421
+)
+Overfull \hbox (11.56418pt too wide) in alignment at lines 468--482
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (11.56418pt too wide) in alignment at lines 421--435
- [] [] [] [] [] [] [] 
- []
+Package longtable Warning: Column widths have changed
+(longtable)                in table 1 on input line 482.
 
-[4] [5]
-Overfull \hbox (41.36969pt too wide) in alignment at lines 525--530
+[5]
+Overfull \hbox (41.36969pt too wide) in alignment at lines 578--592
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (41.36969pt too wide) in alignment at lines 530--544
- [] [] [] [] [] [] [] [] 
- []
+Package longtable Warning: Column widths have changed
+(longtable)                in table 2 on input line 592.
 
-<Project_MovieLens_files/figure-latex/unnamed-chunk-8-1.pdf, id=163, 469.755pt 
-x 325.215pt>
-File: Project_MovieLens_files/figure-latex/unnamed-chunk-8-1.pdf Graphic file (
-type pdf)
-<use Project_MovieLens_files/figure-latex/unnamed-chunk-8-1.pdf>
-Package pdftex.def Info: Project_MovieLens_files/figure-latex/unnamed-chunk-8-1
-.pdf  used on input line 599.
-(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 [6]
-<Project_MovieLens_files/figure-latex/unnamed-chunk-10-1.pdf, id=171, 469.755pt
- x 325.215pt>
-File: Project_MovieLens_files/figure-latex/unnamed-chunk-10-1.pdf Graphic file 
-(type pdf)
-<use Project_MovieLens_files/figure-latex/unnamed-chunk-10-1.pdf>
-Package pdftex.def Info: Project_MovieLens_files/figure-latex/unnamed-chunk-10-
-1.pdf  used on input line 638.
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 3 on input line 620.
+
+
+LaTeX Warning: Citation `rafa' on page 7 undefined on input line 628.
+
+<Project_MovieLens_files/figure-latex/unnamed-chunk-9-1.pdf, id=63, 469.755pt x
+ 325.215pt>
+File: Project_MovieLens_files/figure-latex/unnamed-chunk-9-1.pdf Graphic file (
+type pdf)
+<use Project_MovieLens_files/figure-latex/unnamed-chunk-9-1.pdf>
+Package pdftex.def Info: Project_MovieLens_files/figure-latex/unnamed-chunk-9-1
+.pdf  used on input line 666.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[7 <./Project_MovieLens_files/figure-latex/unnamed-chunk-8-1.pdf>]
-<Project_MovieLens_files/figure-latex/unnamed-chunk-11-1.pdf, id=183, 469.755pt
- x 325.215pt>
+[7] [8 <./Project_MovieLens_files/figure-latex/unnamed-chunk-9-1.pdf>]
+<Project_MovieLens_files/figure-latex/unnamed-chunk-11-1.pdf, id=82, 469.755pt 
+x 325.215pt>
 File: Project_MovieLens_files/figure-latex/unnamed-chunk-11-1.pdf Graphic file 
 (type pdf)
 <use Project_MovieLens_files/figure-latex/unnamed-chunk-11-1.pdf>
 Package pdftex.def Info: Project_MovieLens_files/figure-latex/unnamed-chunk-11-
-1.pdf  used on input line 646.
+1.pdf  used on input line 743.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--651
+Underfull \hbox (badness 10000) in paragraph at lines 743--747
 [][]
  []
 
-[8 <./Project_MovieLens_files/figure-latex/unnamed-chunk-10-1.pdf>]
-<Project_MovieLens_files/figure-latex/unnamed-chunk-12-1.pdf, id=193, 469.755pt
- x 325.215pt>
+[9 <./Project_MovieLens_files/figure-latex/unnamed-chunk-11-1.pdf>]
+<Project_MovieLens_files/figure-latex/unnamed-chunk-12-1.pdf, id=92, 469.755pt 
+x 325.215pt>
 File: Project_MovieLens_files/figure-latex/unnamed-chunk-12-1.pdf Graphic file 
 (type pdf)
 <use Project_MovieLens_files/figure-latex/unnamed-chunk-12-1.pdf>
 Package pdftex.def Info: Project_MovieLens_files/figure-latex/unnamed-chunk-12-
-1.pdf  used on input line 664.
+1.pdf  used on input line 760.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[9 <./Project_MovieLens_files/figure-latex/unnamed-chunk-11-1.pdf>] [10 <./Proj
-ect_MovieLens_files/figure-latex/unnamed-chunk-12-1.pdf>]
-<Project_MovieLens_files/figure-latex/unnamed-chunk-14-1.pdf, id=213, 469.755pt
+[10 <./Project_MovieLens_files/figure-latex/unnamed-chunk-12-1.pdf>]
+<Project_MovieLens_files/figure-latex/unnamed-chunk-14-1.pdf, id=103, 469.755pt
  x 325.215pt>
 File: Project_MovieLens_files/figure-latex/unnamed-chunk-14-1.pdf Graphic file 
 (type pdf)
 <use Project_MovieLens_files/figure-latex/unnamed-chunk-14-1.pdf>
 Package pdftex.def Info: Project_MovieLens_files/figure-latex/unnamed-chunk-14-
-1.pdf  used on input line 730.
+1.pdf  used on input line 817.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 [11 <./Project_MovieLens_files/figure-latex/unnamed-chunk-14-1.pdf>]
-<Project_MovieLens_files/figure-latex/unnamed-chunk-16-1.pdf, id=223, 469.755pt
+<Project_MovieLens_files/figure-latex/unnamed-chunk-16-1.pdf, id=113, 469.755pt
  x 325.215pt>
 File: Project_MovieLens_files/figure-latex/unnamed-chunk-16-1.pdf Graphic file 
 (type pdf)
 <use Project_MovieLens_files/figure-latex/unnamed-chunk-16-1.pdf>
 Package pdftex.def Info: Project_MovieLens_files/figure-latex/unnamed-chunk-16-
-1.pdf  used on input line 785.
+1.pdf  used on input line 863.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-<Project_MovieLens_files/figure-latex/unnamed-chunk-17-1.pdf, id=224, 469.755pt
+[12 <./Project_MovieLens_files/figure-latex/unnamed-chunk-16-1.pdf>]
+<Project_MovieLens_files/figure-latex/unnamed-chunk-17-1.pdf, id=123, 469.755pt
  x 325.215pt>
 File: Project_MovieLens_files/figure-latex/unnamed-chunk-17-1.pdf Graphic file 
 (type pdf)
 <use Project_MovieLens_files/figure-latex/unnamed-chunk-17-1.pdf>
 Package pdftex.def Info: Project_MovieLens_files/figure-latex/unnamed-chunk-17-
-1.pdf  used on input line 803.
+1.pdf  used on input line 881.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[12 <./Project_MovieLens_files/figure-latex/unnamed-chunk-16-1.pdf>] [13 <./Pro
-ject_MovieLens_files/figure-latex/unnamed-chunk-17-1.pdf>]
-<Project_MovieLens_files/figure-latex/unnamed-chunk-19-1.pdf, id=244, 469.755pt
+[13 <./Project_MovieLens_files/figure-latex/unnamed-chunk-17-1.pdf>]
+<Project_MovieLens_files/figure-latex/unnamed-chunk-18-1.pdf, id=135, 469.755pt
+ x 325.215pt>
+File: Project_MovieLens_files/figure-latex/unnamed-chunk-18-1.pdf Graphic file 
+(type pdf)
+<use Project_MovieLens_files/figure-latex/unnamed-chunk-18-1.pdf>
+Package pdftex.def Info: Project_MovieLens_files/figure-latex/unnamed-chunk-18-
+1.pdf  used on input line 927.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+[14 <./Project_MovieLens_files/figure-latex/unnamed-chunk-18-1.pdf>]
+<Project_MovieLens_files/figure-latex/unnamed-chunk-19-1.pdf, id=146, 469.755pt
  x 325.215pt>
 File: Project_MovieLens_files/figure-latex/unnamed-chunk-19-1.pdf Graphic file 
 (type pdf)
 <use Project_MovieLens_files/figure-latex/unnamed-chunk-19-1.pdf>
 Package pdftex.def Info: Project_MovieLens_files/figure-latex/unnamed-chunk-19-
-1.pdf  used on input line 850.
+1.pdf  used on input line 947.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[14 <./Project_MovieLens_files/figure-latex/unnamed-chunk-19-1.pdf>]
 
-LaTeX Warning: Reference `sec:dataanalsyis' on page 15 undefined on input line 
-957.
+LaTeX Warning: Reference `eq:rmsefinal' on page 15 undefined on input line 962.
 
-<Project_MovieLens_files/figure-latex/unnamed-chunk-25-1.pdf, id=259, 469.755pt
+
+[15 <./Project_MovieLens_files/figure-latex/unnamed-chunk-19-1.pdf>]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6 on input line 1001.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 7 on input line 1052.
+
+
+LaTeX Warning: Reference `sec:dataanalsyis' on page 16 undefined on input line 
+1059.
+
+[16]
+<Project_MovieLens_files/figure-latex/unnamed-chunk-24-1.pdf, id=170, 469.755pt
  x 325.215pt>
-File: Project_MovieLens_files/figure-latex/unnamed-chunk-25-1.pdf Graphic file 
+File: Project_MovieLens_files/figure-latex/unnamed-chunk-24-1.pdf Graphic file 
 (type pdf)
-<use Project_MovieLens_files/figure-latex/unnamed-chunk-25-1.pdf>
-Package pdftex.def Info: Project_MovieLens_files/figure-latex/unnamed-chunk-25-
-1.pdf  used on input line 989.
+<use Project_MovieLens_files/figure-latex/unnamed-chunk-24-1.pdf>
+Package pdftex.def Info: Project_MovieLens_files/figure-latex/unnamed-chunk-24-
+1.pdf  used on input line 1095.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 989--994
+Underfull \hbox (badness 10000) in paragraph at lines 1095--1100
 [][]
  []
 
-[15] [16 <./Project_MovieLens_files/figure-latex/unnamed-chunk-25-1.pdf>]
-<Project_MovieLens_files/figure-latex/unnamed-chunk-27-1.pdf, id=277, 469.755pt
+[17 <./Project_MovieLens_files/figure-latex/unnamed-chunk-24-1.pdf>]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 8 on input line 1128.
+
+<Project_MovieLens_files/figure-latex/unnamed-chunk-26-1.pdf, id=182, 469.755pt
  x 325.215pt>
-File: Project_MovieLens_files/figure-latex/unnamed-chunk-27-1.pdf Graphic file 
+File: Project_MovieLens_files/figure-latex/unnamed-chunk-26-1.pdf Graphic file 
 (type pdf)
-<use Project_MovieLens_files/figure-latex/unnamed-chunk-27-1.pdf>
-Package pdftex.def Info: Project_MovieLens_files/figure-latex/unnamed-chunk-27-
-1.pdf  used on input line 1045.
+<use Project_MovieLens_files/figure-latex/unnamed-chunk-26-1.pdf>
+Package pdftex.def Info: Project_MovieLens_files/figure-latex/unnamed-chunk-26-
+1.pdf  used on input line 1160.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[17 <./Project_MovieLens_files/figure-latex/unnamed-chunk-27-1.pdf>] [18]
-<Project_MovieLens_files/figure-latex/plot_lambdas-1.pdf, id=293, 469.755pt x 3
-25.215pt>
-File: Project_MovieLens_files/figure-latex/plot_lambdas-1.pdf Graphic file (typ
-e pdf)
-<use Project_MovieLens_files/figure-latex/plot_lambdas-1.pdf>
-Package pdftex.def Info: Project_MovieLens_files/figure-latex/plot_lambdas-1.pd
-f  used on input line 1144.
-(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[19 <./Project_MovieLens_files/figure-latex/plot_lambdas-1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1273--1274
-[]\T1/lmr/m/n/10 (+20) Baptiste Rocca -Introduction to rec-om-mender sys-tems [
-]$https : / / towardsdatascience . com /
- []
+[18]
 
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 1283--1284
-[]\T1/lmr/m/n/10 (+20) James Moody - What does RMSE re-ally mean? []$https : / 
-/ towardsdatascience . com /
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1292.
-[21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1292.
-(Project_MovieLens.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1292.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1292.
-
-Package rerunfilecheck Info: File `Project_MovieLens.out' has not changed.
-(rerunfilecheck)             Checksum: E7CE89CD426234C8537F77E648E2705A;2567.
-
-LaTeX Warning: There were undefined references.
+Package longtable Warning: Column widths have changed
+(longtable)                in table 9 on input line 1198.
 
 
-LaTeX Warning: There were multiply-defined labels.
+Overfull \vbox (3.58617pt too high) has occurred while \output is active []
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1292.
- ) 
+[19 <./Project_MovieLens_files/figure-latex/unnamed-chunk-26-1.pdf>]
+! Undefined control sequence.
+l.1245 parameter \(\lamda
+                         \) which will minimise the value of RMSE. We find 
 Here is how much of TeX's memory you used:
- 13190 strings out of 480930
- 201989 string characters out of 2896945
- 481933 words of memory out of 3000000
- 28666 multiletter control sequences out of 15000+200000
- 579365 words of font info for 93 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 34i,6n,42p,982b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Nabeel Khan/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm
--ts1.enc}{C:/Users/Nabeel Khan/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvip
-s/lm/lm-ec.enc}{C:/Users/Nabeel Khan/AppData/Local/Programs/MiKTeX 2.9/fonts/en
-c/dvips/lm/lm-mathsy.enc}{C:/Users/Nabeel Khan/AppData/Local/Programs/MiKTeX 2.
-9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Nabeel Khan/AppData/Local/Programs/MiK
-TeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Nabeel Khan/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Users/Nabeel Khan/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Nabeel K
-han/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/User
-s/Nabeel Khan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pf
-b><C:/Users/Nabeel Khan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm
-/lmmi10.pfb><C:/Users/Nabeel Khan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/lm/lmmi7.pfb><C:/Users/Nabeel Khan/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/lm/lmr10.pfb><C:/Users/Nabeel Khan/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/Nabeel Khan/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/Nabeel Khan/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/Nabeel Khan/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/Na
-beel Khan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C
-:/Users/Nabeel Khan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmt
-k10.pfb><C:/Users/Nabeel Khan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmtt10.pfb><C:/Users/Nabeel Khan/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/lm/lmtti10.pfb>
-Output written on Project_MovieLens.pdf (21 pages, 407586 bytes).
-PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
- 10464 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 10849 strings out of 482424
+ 161553 string characters out of 5946123
+ 400840 words of memory out of 5000000
+ 26373 multiletter control sequences out of 15000+600000
+ 575738 words of font info for 54 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 34i,6n,34p,571b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-
-! pdflatex: major issue: So far, you have not checked for MiKTeX updates.
+!  ==> Fatal error occurred, no output PDF file produced!

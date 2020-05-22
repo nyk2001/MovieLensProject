@@ -70,6 +70,7 @@ if(!require(caret)) install.packages("caret", repos = repos_path)
 if(!require(data.table)) install.packages("data.table", repos =repos_path)
 if(!require(lubridate)) install.packages("lubridate", repos = repos_path)
 if(!require(dplyr)) install.packages("dplyr", repos = repos_path)
+if(!require(sjmisc)) install.packages("dplyr", repos = repos_path)
 
 ################################
 # Load libraries
@@ -78,6 +79,7 @@ library(lubridate)
 library(tidyverse)
 library(dplyr)
 library(lubridate)
+library(sjmisc)
 ```
 
 ```{r}
@@ -334,38 +336,51 @@ bottom_movies %>% tail(10) %>%
 ```
 \subsection{Generes}
 \label{sec:generes}
-Each movie can have more than one genre. A close analysis indicates that most movies in the dataset belong to ``Comedy" and ``Drama" genres. A very few movies belong to the ``horror" genre. Therefore, we can also use this feature as a penalty term in our model (if required).
+Each movie can have more than one genre. A close analysis indicates that most movies in the dataset belong to ``Comedy" and ``Drama" genres. A very few movies belong to the ``fantasy" genre. Therefore, we can also use this feature as a penalty term in our model (if required). Moreover, there are some movies with untitled genres. We can remove them if needed. 
 
 ```{r}
-# Splitting the generes into seperate rows and then grouping to get distribution information
-movie_generes <-edx %>% separate_rows(genres, sep = "\\|") %>% 
-  group_by(genres) %>%
-  summarize(count = n())
-```
+# Extracting all unique combination of genres
+unique_genres_combination<-edx%>% group_by(genres)%>%summarize(count = n())
 
-```{r}
-# Generating distributions of movies based on genres
-movie_generes %>% 
-  ggplot(aes(x=reorder(genres, count), y=count)) +
-  geom_bar(stat='identity', fill="cadetblue") + coord_flip(y=c(0, 5000000)) +
+# Extract all possible genres (which exist in the dataset)
+movie_genres <- unique(unlist(strsplit(unique(edx$genres), split='|', fixed=TRUE)))
+movie_genres <- as.data.frame(movie_genres)
+movie_genres<-movie_genres %>% add_column(count = 0)
+
+# Looping through to find the freqeucny or distribution of each genre
+for(i in 1:dim(movie_genres)[1]) {
+  for(j in 1:dim(unique_genres_combination)[1])
+  {
+    match = as.character(unique_genres_combination[j,1])
+    count = as.numeric(unique_genres_combination[j,2])
+    # See if genre category exists in the combination
+    if (str_contains(movie_genres[i,1],match))
+    {
+      movie_genres[i,2]<-movie_genres[i,2]+count
+    }
+  }
+}
+
+# Plot distrobution of movie genres 
+movie_genres%>%
+  ggplot(aes(x=reorder(movie_genres, count), y=count)) +
+  geom_bar(stat='identity', fill="cadetblue") + coord_flip(y=c(0, 900000)) +
   labs(x="Count", y="Movie genres") +
   geom_text(aes(label= count), hjust=-0.1, size=3) +
   labs(title="Distribution of movies based on genre" )
 ```
+
 \subsection{Premier Year}
 \label{sec:pyear}
 
-We analyse the rating trends of users over the years. Interestingly, we can see that mean ratings have dropped over the years. This indicates that users are not rating more movies in recent years.
+We analyse the rating trends of users over the years. Interestingly, we find out that mean ratings have dropped over the years. This indicates that users are not rating more movies in recent years.
 ```{r}
 edx %>% group_by(premiereYr) %>%
   summarize(rating = mean(rating)) %>%
   ggplot(aes(premiereYr, rating)) +
   geom_point() +
   geom_smooth(alpha=0.5, color='cadetblue',method = lm,formula = y ~ splines::bs(x, 3))
-```
-
-
-\section{Methods}
+```\section{Methods}
 \label{sec:methods}
 
 We will use RMSE to estimate the quality of our model. Using equation \ref{eq:rmse}, we write the following function to compute the RMSE between actual ratings and predicted ratings:: 

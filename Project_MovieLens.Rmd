@@ -548,7 +548,7 @@ Where $n_{i}$ is the number of ratings made for movie $i$. This approach will ha
 \lambda \left(\sum_{i} b_i^2 + \sum_{u} b_u^2\right)
 \end{equation}
 
-We can see that it is important to find an optimal value of our tuning parameter $\lamda$ which will minimise the value of RMSE. We find optimal $\lambda$ giving us the best RMSE score as follow.
+We can see that it is important to find an optimal value of our tuning parameter $\lambda$ which will minimise the value of RMSE. We find optimal $\lambda$ giving us the best RMSE score as follow.
 
 
 ```{r}

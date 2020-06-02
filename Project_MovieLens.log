@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.22)  23 MAY 2020 09:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.22)  2 JUN 2020 16:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -635,15 +635,15 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 215.
 
-Overfull \hbox (34.24352pt too wide) in paragraph at lines 225--225
+Overfull \hbox (128.74324pt too wide) in paragraph at lines 225--225
 []\T1/lmtt/m/n/10 ## -- Attaching packages ------------------------------------
----------------- tidyverse 1.2.1 --[] 
+---------------------------------- tidyverse 1.2.1 --[] 
  []
 
 
-Overfull \hbox (34.24352pt too wide) in paragraph at lines 238--238
+Overfull \hbox (128.74324pt too wide) in paragraph at lines 238--238
 []\T1/lmtt/m/n/10 ## -- Conflicts ---------------------------------------------
----------- tidyverse_conflicts() --[] 
+---------------------------- tidyverse_conflicts() --[] 
  []
 
 [2] [3] [4]

@@ -59,7 +59,7 @@ referred to as \emph{validation}. 10\% of the data is used for validation, and 9
 we compute RMSE using \emph{validation} dataset.
 \end{itemize}
 
-```{r}
+```{r, warning=FALSE, message=FALSE}
 ################################
 #  Install packages (if not installed)
 ################################
@@ -82,7 +82,7 @@ library(lubridate)
 library(sjmisc)
 ```
 
-```{r}
+```{r, warning=FALSE, message=FALSE}
 ################################
 # Downloading data
 ################################
@@ -94,10 +94,15 @@ url <- "http://files.grouplens.org/datasets/movielens/ml-10m.zip"
 dl <- tempfile()
     download.file(url, dl)
   
-ratings <- fread(text = gsub("::", "\t", readLines(unzip(dl, "ml-10M100K/ratings.dat"))), col.names = c("userId", "movieId", "rating", "timestamp"))
+ratings <- fread(text = gsub("::", "\t", readLines(unzip(dl, "ml-10M100K/ratings.dat"))), 
+                 col.names = c("userId", "movieId", "rating", "timestamp"))
+
 movies <- str_split_fixed(readLines(unzip(dl, "ml-10M100K/movies.dat")), "\\::", 3)
    colnames(movies) <- c("movieId", "title", "genres")
-   movies <- as.data.frame(movies) %>% mutate(movieId =   as.numeric(levels(movieId))[movieId], title = as.character(title), genres =    as.character(genres))
+   movies <- as.data.frame(movies) %>% mutate(movieId =   
+                                      as.numeric(levels(movieId))[movieId], 
+                                      title = as.character(title), 
+                                      genres =    as.character(genres))
 
 ################################
 # Creating edx and validation sets
@@ -127,17 +132,18 @@ rm(dl, ratings, movies, test_index, temp, movielens, removed)
 ```
 \section{Data Exploration}
 \label{sec:dataexploration}
-In this section, we explore the dataset to get familiar with it. We also
+In this section, we explore the variables of the dataset to get familiar with it. We also
 perform some data wrangling. Data wrangling is the process of cleaning, structuring, or enriching raw data into the desired format to make better decisions and get meaningful insights.
 
-The dataset contains six variables namely ``userID",
-``movieID", ``rating", ``timestamp", ``title'", and ``genres". The ``timestamp" indicates the date on which a user recorded his reviews for a particular movie. Each row in the dataset represents a single rating of a user for a single movie.
+The dataset contains six variables namely "userID", "movieID", "rating", 
+"timestamp", "title", and "genres". The "timestamp" indicates the date on 
+which a user recorded his reviews for a particular movie. Each row in the dataset represents a single rating of a user for a single movie.
 
 
 ```{r}
 head(edx)
 ```
-There are around nine million rows in \emph{edx} dataset, which is approximately 90% of the whole data, as mentioned before. The summary of \emph{edx} dataset shows that there are no null values in the training dataset.
+There are around nine million rows in \emph{edx} dataset, which is approximately 90% of the whole data, as mentioned before. The summary of \emph{edx} dataset shows that there are no null values in the training dataset. We also find no null values in validation dataset.
 
 ```{r}
 sprintf("Edx Dataset - Rows = %d  | Columns = %d",nrow(edx),ncol(edx))
@@ -271,7 +277,7 @@ edx %>% group_by(movieId) %>% summarize(n = n()) %>%
 
 \subsection{Ratings}
 \label{sec:ratings}
-As we discussed in Section \label{sec:movies} that the release years of movies in the dataset range from 1915 to 2008. The dataset also indicates when users recorded the ratings for each movie. A close look suggests that rating data covers a reasonable period from years 1995 to 2009 i.e., 14 years.
+As we discussed in Section \ref{sec:movies} that the release years of movies in the dataset range from 1915 to 2008. The dataset also indicates when users recorded the ratings for each movie. A close look suggests that rating data covers a reasonable period from years 1995 to 2009 i.e., 14 years.
 
 ```{r}
 # Analysing when ratings data was added by users
@@ -336,7 +342,7 @@ bottom_movies %>% tail(10) %>%
 ```
 \subsection{Generes}
 \label{sec:generes}
-Each movie can have more than one genre. A close analysis indicates that most movies in the dataset belong to ``Comedy" and ``Drama" genres. A very few movies belong to the ``fantasy" genre. Therefore, we can also use this feature as a penalty term in our model (if required). Moreover, there are some movies with untitled genres. We can remove them if needed. 
+Each movie can have more than one genre. A close analysis indicates that most movies in the dataset belong to "Comedy" and "Drama" genres. A very few movies belong to the "fantasy" genre. Therefore, we can also use this feature as a penalty term in our model (if required). Moreover, there are some movies with untitled genres. We can remove them if needed. 
 
 ```{r}
 # Extracting all unique combination of genres
@@ -391,7 +397,7 @@ We will use RMSE to estimate the quality of our model. We define $y_{u,i}$ as th
 \begin{equation}
 \label{eq:rmsefinal}
 RMSE = \sqrt{\frac{1}{N}\displaystyle\sum_{i=1}^{n} (\hat{y}_{u,i}-y_{u,i})^{2}}
-\end{equation}For our problem, as the rating for movie  
+\end{equation}
 
 Where N is the number of user/movie  combinations. Using Equation \ref{eq:rmsefinal}, we write the following function to compute the RMSE:
 
@@ -434,7 +440,7 @@ rmse_results
 
 \subsection{Model with movie effect}
 \label{sec:mem}
-The RMSE of our previous model is very high compared to the target RMSE. To improve the RMSE of our model, we have to include extra parameters in our model. We recall from Section \ref{sec:dataanalsyis} that different movies are rated differently. The popular movies are rated much higher than unpopular movies. We modify the previous model by adding the term `$b_{i}$" to represent the average ranking for movie $i$ as follows:
+The RMSE of our previous model is very high compared to the target RMSE. To improve the RMSE of our model, we have to include extra parameters in our model. We recall from Section \ref{sec:dataanalysis} that different movies are rated differently. The popular movies are rated much higher than unpopular movies. We modify the previous model by adding the term `$b_{i}$" to represent the average ranking for movie $i$ as follows:
 
 \begin{equation}
 Y_{u, i} = \mu +b_{i}+ \epsilon_{u, i}
@@ -477,7 +483,7 @@ rmse_results <- bind_rows(rmse_results,
 rmse_results
 ```
 
-\section{Model with user effects}
+\subsection{Model with user effects}
 \label{sec:uer}
 We know that some users are more active in rating than others. We compute the average rating for user $u$, who have rated over 100 movies. We notice a substantial variability across users. Some users are very cranky (like few movies), while others love every movie. Therefore, we can further improve our previous model by adding user-specific effect ($b_{u}$): 
 
@@ -519,7 +525,7 @@ rmse_results <- bind_rows(rmse_results,
 rmse_results
 ```
 \subsection{Regularization using movie and user effects}
-\subsection{sec:reg}
+\label{sec:reg}
 We made mistakes on our first model when we used the effect of movies only.
 \begin{enumerate}
 \item There are users who have rated very few movies (less than 30 movies). On the other hand, 
@@ -528,7 +534,7 @@ We made mistakes on our first model when we used the effect of movies only.
 
 These are noisy estimates that result in overfitting of the model. Because the model tries hard to fit the noisy estimates, such large errors are likely to increase the RMSE and affect the predictions. 
 
-To solve this problem, we use Regularization. The Regularization permits to penalize large estimates that come from small sample sizes. The general idea of penalized regression is to control the total variability of the movie effects.  Instead of minimizing the least squares equation, we minimize an equation that adds a penalty that gets larger when many $b_{i}$ are large:
+To solve this problem, we use \emph{regularization} as discussed before. The regularization permits to penalize large estimates that come from small sample sizes. The general idea of penalized regression is to control the total variability of the movie effects.  Instead of minimizing the least squares equation, we minimize an equation that adds a penalty that gets larger when many $b_{i}$ are large:
 
 \begin{equation}
 \frac{1}{N} \sum_{u,i} \left(y_{u,i} - \mu - b_i\right)^2 + \lambda \sum_{i} b_i^2
@@ -548,7 +554,7 @@ Where $n_{i}$ is the number of ratings made for movie $i$. This approach will ha
 \lambda \left(\sum_{i} b_i^2 + \sum_{u} b_u^2\right)
 \end{equation}
 
-We can see that it is important to find an optimal value of our tuning parameter $\lambda$ which will minimise the value of RMSE. We find optimal $\lambda$ giving us the best RMSE score as follow.
+It is important to find an optimal value of our tuning parameter $\lambda$ which will minimise the value of RMSE. We find optimal $\lambda$ giving us the best RMSE score as follow.
 
 
 ```{r}
@@ -604,7 +610,7 @@ The RMSE of our best model is 0.8648170, which is lower than the \textbf{Target 
 
 \section{Conclusion}
 \label{sec:conclusion}
-In this report, we developed recommendation algorithms to predict movie ratings using Movielens data. There is a lot of variability in our data, such as popular movies are rated by many users, obscure movies have a very low rating, some users like every movie, and some users give more negative ratings.  These factors prompted us to use average ratings of movies and users with our model. We noticed a significant improvement to the RMSE compared to our first model. Then, we used regularization to handle the overfitting of our model and gained a slight increase in the RMSE score. 
+In this report, we developed recommendation algorithms to predict movie ratings using Movielens data. There is a lot of variability in our data, such as popular movies are rated by many users, obscure movies have a very low rating, some users like every movie, and some users give more negative ratings.  These factors prompted us to use average ratings of movies and users with our model. We noticed a significant improvement to the RMSE compared to our first model. Then, we used regularization to handle the overfitting of our model and gained a slight improvement in the RMSE score. 
 
 \subsection{Future Work}
 \label{sec:futurework}

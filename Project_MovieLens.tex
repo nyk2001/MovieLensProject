@@ -213,158 +213,12 @@ we compute RMSE using \emph{validation} dataset.
 \CommentTok{# Note: this process could take a couple of minutes}
 \NormalTok{repos_path<-}\StringTok{ "http://cran.us.r-project.org"}
 \ControlFlowTok{if}\NormalTok{(}\OperatorTok{!}\KeywordTok{require}\NormalTok{(tidyverse)) }\KeywordTok{install.packages}\NormalTok{(}\StringTok{"tidyverse"}\NormalTok{, }\DataTypeTok{repos =}\NormalTok{repos_path)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-## Loading required package: tidyverse
-\end{verbatim}
-
-\begin{verbatim}
-## -- Attaching packages ---------------------------------------------------------------------- tidyverse 1.2.1 --
-\end{verbatim}
-
-\begin{verbatim}
-## v ggplot2 3.2.1     v purrr   0.3.3
-## v tibble  2.1.3     v dplyr   0.8.3
-## v tidyr   1.0.0     v stringr 1.4.0
-## v readr   1.3.1     v forcats 0.4.0
-\end{verbatim}
-
-\begin{verbatim}
-## -- Conflicts ------------------------------------------------------------------------- tidyverse_conflicts() --
-## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()
-\end{verbatim}
-
-\begin{Shaded}
-\begin{Highlighting}[]
 \ControlFlowTok{if}\NormalTok{(}\OperatorTok{!}\KeywordTok{require}\NormalTok{(caret)) }\KeywordTok{install.packages}\NormalTok{(}\StringTok{"caret"}\NormalTok{, }\DataTypeTok{repos =}\NormalTok{ repos_path)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-## Loading required package: caret
-\end{verbatim}
-
-\begin{verbatim}
-## Warning: package 'caret' was built under R version 3.6.3
-\end{verbatim}
-
-\begin{verbatim}
-## Loading required package: lattice
-\end{verbatim}
-
-\begin{verbatim}
-## 
-## Attaching package: 'caret'
-\end{verbatim}
-
-\begin{verbatim}
-## The following object is masked from 'package:purrr':
-## 
-##     lift
-\end{verbatim}
-
-\begin{Shaded}
-\begin{Highlighting}[]
 \ControlFlowTok{if}\NormalTok{(}\OperatorTok{!}\KeywordTok{require}\NormalTok{(data.table)) }\KeywordTok{install.packages}\NormalTok{(}\StringTok{"data.table"}\NormalTok{, }\DataTypeTok{repos =}\NormalTok{repos_path)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-## Loading required package: data.table
-\end{verbatim}
-
-\begin{verbatim}
-## Warning: package 'data.table' was built under R version 3.6.3
-\end{verbatim}
-
-\begin{verbatim}
-## 
-## Attaching package: 'data.table'
-\end{verbatim}
-
-\begin{verbatim}
-## The following objects are masked from 'package:dplyr':
-## 
-##     between, first, last
-\end{verbatim}
-
-\begin{verbatim}
-## The following object is masked from 'package:purrr':
-## 
-##     transpose
-\end{verbatim}
-
-\begin{Shaded}
-\begin{Highlighting}[]
 \ControlFlowTok{if}\NormalTok{(}\OperatorTok{!}\KeywordTok{require}\NormalTok{(lubridate)) }\KeywordTok{install.packages}\NormalTok{(}\StringTok{"lubridate"}\NormalTok{, }\DataTypeTok{repos =}\NormalTok{ repos_path)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-## Loading required package: lubridate
-\end{verbatim}
-
-\begin{verbatim}
-## 
-## Attaching package: 'lubridate'
-\end{verbatim}
-
-\begin{verbatim}
-## The following objects are masked from 'package:data.table':
-## 
-##     hour, isoweek, mday, minute, month, quarter, second, wday,
-##     week, yday, year
-\end{verbatim}
-
-\begin{verbatim}
-## The following object is masked from 'package:base':
-## 
-##     date
-\end{verbatim}
-
-\begin{Shaded}
-\begin{Highlighting}[]
 \ControlFlowTok{if}\NormalTok{(}\OperatorTok{!}\KeywordTok{require}\NormalTok{(dplyr)) }\KeywordTok{install.packages}\NormalTok{(}\StringTok{"dplyr"}\NormalTok{, }\DataTypeTok{repos =}\NormalTok{ repos_path)}
 \ControlFlowTok{if}\NormalTok{(}\OperatorTok{!}\KeywordTok{require}\NormalTok{(sjmisc)) }\KeywordTok{install.packages}\NormalTok{(}\StringTok{"dplyr"}\NormalTok{, }\DataTypeTok{repos =}\NormalTok{ repos_path)}
-\end{Highlighting}
-\end{Shaded}
 
-\begin{verbatim}
-## Loading required package: sjmisc
-\end{verbatim}
-
-\begin{verbatim}
-## Warning: package 'sjmisc' was built under R version 3.6.3
-\end{verbatim}
-
-\begin{verbatim}
-## 
-## Attaching package: 'sjmisc'
-\end{verbatim}
-
-\begin{verbatim}
-## The following object is masked from 'package:purrr':
-## 
-##     is_empty
-\end{verbatim}
-
-\begin{verbatim}
-## The following object is masked from 'package:tidyr':
-## 
-##     replace_na
-\end{verbatim}
-
-\begin{verbatim}
-## The following object is masked from 'package:tibble':
-## 
-##     add_case
-\end{verbatim}
-
-\begin{Shaded}
-\begin{Highlighting}[]
 \CommentTok{################################}
 \CommentTok{# Load libraries}
 \CommentTok{################################}
@@ -389,10 +243,15 @@ we compute RMSE using \emph{validation} dataset.
 \NormalTok{dl <-}\StringTok{ }\KeywordTok{tempfile}\NormalTok{()}
     \KeywordTok{download.file}\NormalTok{(url, dl)}
   
-\NormalTok{ratings <-}\StringTok{ }\KeywordTok{fread}\NormalTok{(}\DataTypeTok{text =} \KeywordTok{gsub}\NormalTok{(}\StringTok{"::"}\NormalTok{, }\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\KeywordTok{readLines}\NormalTok{(}\KeywordTok{unzip}\NormalTok{(dl, }\StringTok{"ml-10M100K/ratings.dat"}\NormalTok{))), }\DataTypeTok{col.names =} \KeywordTok{c}\NormalTok{(}\StringTok{"userId"}\NormalTok{, }\StringTok{"movieId"}\NormalTok{, }\StringTok{"rating"}\NormalTok{, }\StringTok{"timestamp"}\NormalTok{))}
+\NormalTok{ratings <-}\StringTok{ }\KeywordTok{fread}\NormalTok{(}\DataTypeTok{text =} \KeywordTok{gsub}\NormalTok{(}\StringTok{"::"}\NormalTok{, }\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\KeywordTok{readLines}\NormalTok{(}\KeywordTok{unzip}\NormalTok{(dl, }\StringTok{"ml-10M100K/ratings.dat"}\NormalTok{))), }
+                 \DataTypeTok{col.names =} \KeywordTok{c}\NormalTok{(}\StringTok{"userId"}\NormalTok{, }\StringTok{"movieId"}\NormalTok{, }\StringTok{"rating"}\NormalTok{, }\StringTok{"timestamp"}\NormalTok{))}
+
 \NormalTok{movies <-}\StringTok{ }\KeywordTok{str_split_fixed}\NormalTok{(}\KeywordTok{readLines}\NormalTok{(}\KeywordTok{unzip}\NormalTok{(dl, }\StringTok{"ml-10M100K/movies.dat"}\NormalTok{)), }\StringTok{"}\CharTok{\textbackslash{}\textbackslash{}}\StringTok{::"}\NormalTok{, }\DecValTok{3}\NormalTok{)}
    \KeywordTok{colnames}\NormalTok{(movies) <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{"movieId"}\NormalTok{, }\StringTok{"title"}\NormalTok{, }\StringTok{"genres"}\NormalTok{)}
-\NormalTok{   movies <-}\StringTok{ }\KeywordTok{as.data.frame}\NormalTok{(movies) }\OperatorTok{%>%}\StringTok{ }\KeywordTok{mutate}\NormalTok{(}\DataTypeTok{movieId =}   \KeywordTok{as.numeric}\NormalTok{(}\KeywordTok{levels}\NormalTok{(movieId))[movieId], }\DataTypeTok{title =} \KeywordTok{as.character}\NormalTok{(title), }\DataTypeTok{genres =}    \KeywordTok{as.character}\NormalTok{(genres))}
+\NormalTok{   movies <-}\StringTok{ }\KeywordTok{as.data.frame}\NormalTok{(movies) }\OperatorTok{%>%}\StringTok{ }\KeywordTok{mutate}\NormalTok{(}\DataTypeTok{movieId =}   
+                                      \KeywordTok{as.numeric}\NormalTok{(}\KeywordTok{levels}\NormalTok{(movieId))[movieId], }
+                                      \DataTypeTok{title =} \KeywordTok{as.character}\NormalTok{(title), }
+                                      \DataTypeTok{genres =}    \KeywordTok{as.character}\NormalTok{(genres))}
 
 \CommentTok{################################}
 \CommentTok{# Creating edx and validation sets}
@@ -402,16 +261,6 @@ we compute RMSE using \emph{validation} dataset.
 
 \CommentTok{# Validation set will be 10% of MovieLens data}
 \KeywordTok{set.seed}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DataTypeTok{sample.kind =} \StringTok{"Rounding"}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-## Warning in set.seed(1, sample.kind = "Rounding"): non-uniform 'Rounding'
-## sampler used
-\end{verbatim}
-
-\begin{Shaded}
-\begin{Highlighting}[]
 \NormalTok{test_index <-}\StringTok{ }\KeywordTok{createDataPartition}\NormalTok{(}\DataTypeTok{y =}\NormalTok{ movielens}\OperatorTok{$}\NormalTok{rating, }\DataTypeTok{times =} \DecValTok{1}\NormalTok{, }\DataTypeTok{p =} \FloatTok{0.1}\NormalTok{, }\DataTypeTok{list =} \OtherTok{FALSE}\NormalTok{)}
 
 \NormalTok{edx <-}\StringTok{ }\NormalTok{movielens[}\OperatorTok{-}\NormalTok{test_index,]}
@@ -424,15 +273,6 @@ we compute RMSE using \emph{validation} dataset.
 
 \CommentTok{# Add rows removed from validation set back into edx set}
 \NormalTok{removed <-}\StringTok{ }\KeywordTok{anti_join}\NormalTok{(temp, validation)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-## Joining, by = c("userId", "movieId", "rating", "timestamp", "title", "genres")
-\end{verbatim}
-
-\begin{Shaded}
-\begin{Highlighting}[]
 \NormalTok{ edx <-}\StringTok{ }\KeywordTok{rbind}\NormalTok{(edx, removed)}
 
  \CommentTok{# Removing the objects from environment as no longer required}
@@ -443,14 +283,13 @@ we compute RMSE using \emph{validation} dataset.
 \section{Data Exploration}
 \label{sec:dataexploration}
 
-In this section, we explore the dataset to get familiar with it. We also
-perform some data wrangling. Data wrangling is the process of cleaning,
-structuring, or enriching raw data into the desired format to make
-better decisions and get meaningful insights.
+In this section, we explore the variables of the dataset to get familiar
+with it. We also perform some data wrangling. Data wrangling is the
+process of cleaning, structuring, or enriching raw data into the desired
+format to make better decisions and get meaningful insights.
 
-The dataset contains six variables namely \texttt{userID",}movieID``,
-\texttt{rating",}timestamp'',
-\texttt{title\textquotesingle{}",\ and}genres``. The ``timestamp''
+The dataset contains six variables namely ``userID'', ``movieID'',
+``rating'', ``timestamp'', ``title'', and ``genres''. The ``timestamp''
 indicates the date on which a user recorded his reviews for a particular
 movie. Each row in the dataset represents a single rating of a user for
 a single movie.
@@ -484,7 +323,7 @@ Children\textbar Comedy\textbar Fantasy\tabularnewline
 There are around nine million rows in \emph{edx} dataset, which is
 approximately 90\% of the whole data, as mentioned before. The summary
 of \emph{edx} dataset shows that there are no null values in the
-training dataset.
+training dataset. We also find no null values in validation dataset.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -762,7 +601,7 @@ information can also be used as penalty term in our model (if required).
 \subsection{Ratings}
 \label{sec:ratings}
 
-As we discussed in Section \label{sec:movies} that the release years of
+As we discussed in Section \ref{sec:movies} that the release years of
 movies in the dataset range from 1915 to 2008. The dataset also
 indicates when users recorded the ratings for each movie. A close look
 suggests that rating data covers a reasonable period from years 1995 to
@@ -884,8 +723,8 @@ numbers can result in overfitting for our model.
 \label{sec:generes}
 
 Each movie can have more than one genre. A close analysis indicates that
-most movies in the dataset belong to \texttt{Comedy"\ and}Drama" genres.
-A very few movies belong to the ``fantasy" genre. Therefore, we can also
+most movies in the dataset belong to ``Comedy'' and ``Drama'' genres. A
+very few movies belong to the ``fantasy'' genre. Therefore, we can also
 use this feature as a penalty term in our model (if required). Moreover,
 there are some movies with untitled genres. We can remove them if
 needed.
@@ -956,7 +795,7 @@ We will use RMSE to estimate the quality of our model. We define
 \begin{equation}
 \label{eq:rmsefinal}
 RMSE = \sqrt{\frac{1}{N}\displaystyle\sum_{i=1}^{n} (\hat{y}_{u,i}-y_{u,i})^{2}}
-\end{equation}For our problem, as the rating for movie
+\end{equation}
 
 Where N is the number of user/movie combinations. Using Equation
 \ref{eq:rmsefinal}, we write the following function to compute the RMSE:
@@ -1056,7 +895,7 @@ Average Rating Model & 1.061202\tabularnewline
 
 The RMSE of our previous model is very high compared to the target RMSE.
 To improve the RMSE of our model, we have to include extra parameters in
-our model. We recall from Section \ref{sec:dataanalsyis} that different
+our model. We recall from Section \ref{sec:dataanalysis} that different
 movies are rated differently. The popular movies are rated much higher
 than unpopular movies. We modify the previous model by adding the term
 `\(b_{i}\)" to represent the average ranking for movie \(i\) as follows:
@@ -1127,7 +966,7 @@ Movie effect model & 0.9439087\tabularnewline
 \bottomrule
 \end{longtable}
 
-\section{Model with user effects}
+\subsection{Model with user effects}
 \label{sec:uer}
 
 We know that some users are more active in rating than others. We
@@ -1198,7 +1037,7 @@ Movie and user effect model & 0.8653488\tabularnewline
 \end{longtable}
 
 \subsection{Regularization using movie and user effects}
-\subsection{sec:reg}
+\label{sec:reg}
 
 We made mistakes on our first model when we used the effect of movies
 only.
@@ -1212,12 +1051,12 @@ These are noisy estimates that result in overfitting of the model.
 Because the model tries hard to fit the noisy estimates, such large
 errors are likely to increase the RMSE and affect the predictions.
 
-To solve this problem, we use Regularization. The Regularization permits
-to penalize large estimates that come from small sample sizes. The
-general idea of penalized regression is to control the total variability
-of the movie effects. Instead of minimizing the least squares equation,
-we minimize an equation that adds a penalty that gets larger when many
-\(b_{i}\) are large:
+To solve this problem, we use \emph{regularization} as discussed before. The regularization
+permits to penalize large estimates that come from small sample sizes.
+The general idea of penalized regression is to control the total
+variability of the movie effects. Instead of minimizing the least
+squares equation, we minimize an equation that adds a penalty that gets
+larger when many \(b_{i}\) are large:
 
 \begin{equation}
 \frac{1}{N} \sum_{u,i} \left(y_{u,i} - \mu - b_i\right)^2 + \lambda \sum_{i} b_i^2
@@ -1241,9 +1080,9 @@ regularization to estimate of user effects as well as shown below:
 \lambda \left(\sum_{i} b_i^2 + \sum_{u} b_u^2\right)
 \end{equation}
 
-We can see that it is important to find an optimal value of our tuning
-parameter \(\lambda\) which will minimise the value of RMSE. We find
-optimal \(\lambda\) giving us the best RMSE score as follow.
+It is important to find an optimal value of our tuning parameter
+\(\lambda\) which will minimise the value of RMSE. We find optimal
+\(\lambda\) giving us the best RMSE score as follow.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -1340,8 +1179,8 @@ very low rating, some users like every movie, and some users give more
 negative ratings. These factors prompted us to use average ratings of
 movies and users with our model. We noticed a significant improvement to
 the RMSE compared to our first model. Then, we used regularization to
-handle the overfitting of our model and gained a slight increase in the
-RMSE score.
+handle the overfitting of our model and gained a slight improvement in
+the RMSE score.
 
 \subsection{Future Work}
 \label{sec:futurework}
